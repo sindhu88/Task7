@@ -1,7 +1,8 @@
 #!/usr/bin/env groovy
-properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/sindhu88/Task7.git/'], pipelineTriggers([])])
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/sindhu88/Task7.git/'],
+            pipelineTriggers([])])
 
-pipeline {
++pipeline {
    agent any 
 
    stages {
