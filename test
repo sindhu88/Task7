@@ -20,7 +20,7 @@ pipeline {
            steps {
                sh 'ls'
                sh 'pwd'
-              Build job : 'Job B'
+              build job : 'Job B'
            }
        }
    }
